@@ -2,4 +2,18 @@
     <string name="app_name">Assigment_1</string>
     <string name="from">from</string>
     <string name="SMD">SMD</string>
+    <string name="Socially">Socially</string>
+    <string name="sign_up">Create An Account and Sign Up</string>
+    <string name="Username">Username</string>
+    <string name="Name">Your Name</string>
+    <string name="Last_name">Your Last name</string>
+    <string name="Date">Date of Birth</string>
+    <string name="email">E-mail</string>
+    <string name="Password">Password</string>
+    <string name="Sign_in_button">Create an Account</string>
+    <string name="Jacob_w">Jacob_w</string>
+    <string name="login">Log in</string>
+    <string name="switch_accounts">Switch accounts</string>
+    <string name="Dont_have_an_account">Dont have an account?</string>
+    <string name="SignIn">Sign up</string>
 </resources>
