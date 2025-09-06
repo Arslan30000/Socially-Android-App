@@ -2,7 +2,177 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:andoir="http://schemas.android.com/apk/res-auto"
     android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/status_bar" >
+    </ImageView>
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/status_bar"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_back" >
+    </ImageButton>
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/status_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/Socially"
+        android:textColor="@color/brown"
+        android:textSize="36sp" >
+    </TextView>
+    <EditText
+        android:id="@+id/username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_title"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="28dp"
+        android:hint="@string/username_hint"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@drawable/box2">
+    </EditText>
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_input"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="12dp"
+        android:hint="@string/Password"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@drawable/box2" >
+    </EditText>
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_input"
+        android:layout_alignEnd="@id/password_input"
+        android:layout_marginTop="8dp"
+        android:text="@string/forgot_password"
+        android:textColor="@color/brown"
+        android:textSize="14sp" >
+
+    </TextView>
+    <TextView
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forgot_password"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/login"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/login_button2">
+    </TextView>
+    <LinearLayout
+        android:id="@+id/divider_or"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_button"
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="12dp"
+            android:background="@color/light_grey" >
+        </View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/OR"
+            android:textColor="@color/light_grey"
+            android:textSize="14sp" >
+        </TextView>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="24dp"
+            android:background="@color/light_grey" >
+        </View>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/signup_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider_or"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Dont_have_an_account"
+            android:textColor="@color/light_grey"
+            android:textSize="14sp" >
+        </TextView>
+        <TextView
+            android:id="@+id/sign_up_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/SignIn"
+            android:textColor="@color/brown"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="@string/sign_up" >
+
+        </TextView>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/bottom_silver_line"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+         android:layout_height="1dp"
+        android:layout_above="@id/brand_footer"
+          android:layout_marginHorizontal="24dp"
+         android:layout_marginBottom="16dp"
+        android:background="@color/light_grey" >
+
+    </View>
+    <TextView
+        android:id="@+id/brand_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/home_indicator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:text="@string/Socially"
+        android:textColor="@color/brown"
+        android:textSize="16sp" >
+    </TextView>
+    <ImageView
+        android:id="@+id/home_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/home_indicator" >
+
+    </ImageView>
 
 </RelativeLayout>

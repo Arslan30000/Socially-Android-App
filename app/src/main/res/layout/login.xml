@@ -64,6 +64,7 @@
             </TextView>
         </RelativeLayout>
         <TextView
+            android:id="@+id/Switch_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

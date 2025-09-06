@@ -7,6 +7,7 @@ import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
+
 class ThirdActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,9 +20,16 @@ class ThirdActivity : AppCompatActivity() {
         }
         val nextbtn: ImageButton = findViewById(R.id.login_button)
         nextbtn.setOnClickListener {
+            val intent = Intent(this, FifthActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+        val btn3: TextView=findViewById(R.id.Switch_btn)
+        btn3.setOnClickListener {
             val intent = Intent(this, FourthActivity::class.java)
             startActivity(intent)
             finish()
         }
+
     }
 }
