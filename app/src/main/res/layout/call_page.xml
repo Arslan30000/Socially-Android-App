@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9A5A5B"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/call_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/call_box"
+        android:layout_centerInParent="true"
+        >
+        <ImageView
+            android:id="@+id/caller_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/profille_2"
+            >
+        </ImageView>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/caller_details"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/call_tag"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        >
+        <TextView
+            android:id="@+id/caller_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Mom"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/caller_name"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+
+            >
+
+        </TextView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/options"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+      android:layout_alignParentBottom="true"
+
+        >
+        <ImageView
+            android:id="@+id/decline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/end_call_icon"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="30dp"
+            >
+        </ImageView>
+        <ImageView
+            android:id="@+id/options_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="100dp"
+            android:background="@drawable/menu"
+            >
+        </ImageView>
+        <ImageView
+            android:id="@+id/sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="100dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/sound_on"
+
+            >
+        </ImageView>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

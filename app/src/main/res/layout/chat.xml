@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white">
-
     <ImageView
         android:id="@+id/status_bar"
         android:layout_width="match_parent"
@@ -13,13 +12,11 @@
         android:layout_alignParentTop="true"
         android:background="@drawable/status_bar">
     </ImageView>
-
     <RelativeLayout
         android:id="@+id/topBar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_below="@id/status_bar">
-
         <ImageView
             android:id="@+id/back_icon"
             android:layout_width="28dp"
@@ -28,7 +25,6 @@
             android:layout_marginStart="15dp"
             android:background="@drawable/back_2">
         </ImageView>
-
         <LinearLayout
             android:id="@+id/top_title"
             android:layout_width="wrap_content"
@@ -36,17 +32,15 @@
             android:layout_centerInParent="true"
             android:orientation="horizontal"
             android:gravity="center_vertical">
-
             <TextView
                 android:id="@+id/username"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="jacob_w"
+                android:text="@string/Jacob_w"
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:textColor="@color/brown">
             </TextView>
-
             <ImageView
                 android:id="@+id/username_icon"
                 android:layout_width="16dp"
@@ -56,76 +50,72 @@
                 android:background="@drawable/dropdown">
             </ImageView>
         </LinearLayout>
-
         <ImageView
             android:id="@+id/add_icon"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="15dp"
             android:layout_centerVertical="true"
             android:background="@drawable/plus">
         </ImageView>
     </RelativeLayout>
-
     <RelativeLayout
         android:id="@+id/search_bar"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_below="@id/topBar"
         android:layout_marginTop="5dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:background="@drawable/search_bg">
-
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/box2">
         <ImageView
             android:id="@+id/search_icon"
             android:layout_width="18dp"
             android:layout_height="18dp"
             android:layout_marginStart="10dp"
             android:layout_centerVertical="true"
-            android:background="@drawable/search">
+            android:background="@drawable/search_silver">
         </ImageView>
-
-        <TextView
+        <EditText
             android:id="@+id/search_hint"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toEndOf="@id/search_icon"
+            android:hint="@string/search"
             android:layout_marginStart="10dp"
             android:layout_centerVertical="true"
-            android:text="Search"
-            android:textColor="@color/grey"
+            android:background="@android:color/transparent"
+            android:textColor="@color/light_grey"
             android:textSize="15sp">
-        </TextView>
+        </EditText>
     </RelativeLayout>
-
     <ScrollView
         android:id="@+id/messages_scroll"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/search_bar"
         android:layout_above="@id/camera_bar">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
             <RelativeLayout
+                android:id="@+id/p1"
                 android:layout_width="match_parent"
                 android:layout_height="65dp"
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp">
-
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/profile_1"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_centerVertical="true"
-                    android:src="@drawable/profile1">
+                    android:src="@drawable/profile_image"
+                    app:civ_circle_background_color="@color/white"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="@color/light_grey">
                 </de.hdodenhof.circleimageview.CircleImageView>
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -133,27 +123,24 @@
                     android:layout_marginStart="10dp"
                     android:orientation="vertical"
                     android:layout_centerVertical="true">
-
                     <TextView
                         android:id="@+id/username_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="joshua_l"
+                        android:text="@string/josh"
                         android:textStyle="bold"
                         android:textColor="@color/black"
                         android:textSize="14sp">
                     </TextView>
-
                     <TextView
                         android:id="@+id/message_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Have a nice day, bro!"
-                        android:textColor="@color/grey"
+                        android:text="@string/nice_day"
+                        android:textColor="@color/black"
                         android:textSize="13sp">
                     </TextView>
                 </LinearLayout>
-
                 <TextView
                     android:id="@+id/time_1"
                     android:layout_width="wrap_content"
@@ -161,11 +148,10 @@
                     android:layout_alignParentEnd="true"
                     android:layout_marginEnd="50dp"
                     android:layout_centerVertical="true"
-                    android:text="· now"
+                    android:text="@string/now_1"
                     android:textSize="12sp"
-                    android:textColor="@color/grey">
+                    android:textColor="@color/black">
                 </TextView>
-
                 <ImageView
                     android:id="@+id/camera_1"
                     android:layout_width="26dp"
@@ -175,38 +161,96 @@
                     android:background="@drawable/camera2">
                 </ImageView>
             </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/p2"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/profile_image"
+                    app:civ_circle_background_color="@color/white"
+                    >
+                </de.hdodenhof.circleimageview.CircleImageView>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/profile_2"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical"
+                    android:layout_centerVertical="true">
 
+                    <TextView
+                        android:id="@+id/username_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/josh"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="14sp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/message_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nice_day"
+                        android:textColor="@color/black"
+                        android:textSize="13sp">
+                    </TextView>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/time_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="50dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/now_1"
+                    android:textSize="12sp"
+                    android:textColor="@color/black">
+                </TextView>
+                <ImageView
+                    android:id="@+id/camera_2"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/camera2">
+                </ImageView>
+            </RelativeLayout>
         </LinearLayout>
     </ScrollView>
-
     <RelativeLayout
         android:id="@+id/camera_bar"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_above="@id/home_indicator"
         android:gravity="center">
-
         <ImageView
             android:id="@+id/camera_icon"
             android:layout_width="28dp"
             android:layout_height="28dp"
-            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
             android:layout_marginBottom="5dp"
-            android:background="@drawable/camera_brown">
+            android:background="@drawable/camera_filled">
         </ImageView>
-
         <TextView
             android:id="@+id/camera_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/camera_icon"
-            android:layout_centerHorizontal="true"
-            android:text="Camera"
-            android:textSize="14sp"
-            android:textColor="@color/brown">
+            android:layout_toEndOf="@id/camera_icon"
+            android:layout_centerInParent="true"
+            android:text="@string/Camera"
+            android:layout_marginStart="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/black">
         </TextView>
     </RelativeLayout>
-
     <ImageView
         android:id="@+id/home_indicator"
         android:layout_width="match_parent"
@@ -214,5 +258,4 @@
         android:layout_alignParentBottom="true"
         android:background="@drawable/home_indicator">
     </ImageView>
-
 </RelativeLayout>
