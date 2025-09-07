@@ -2,9 +2,7 @@ package com.example.assigment_1
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
-import android.widget.ImageButton
-import android.widget.TextView
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 
 class FifthActivity : AppCompatActivity() {
@@ -12,5 +10,11 @@ class FifthActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_page)
 
+        val Searchbtn: ImageView = findViewById(R.id.search_icon)
+        Searchbtn.setOnClickListener {
+            val intent = Intent(this, SixthActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }

@@ -21,7 +21,11 @@
     <string name="username_hint">Username</string>
     <string name="josh">Joshua_I</string>
     <string name="japan">Tokyo,Japan</string>
-    <string name="game"> The game in Japan was amazing and I want to share \n some photos</string>
-
+    <string name="game"> The game in Japan was amazing and I want to share some photos</string>
+    <string name="your_story">Your Story</string>
+    <string name="karenne">karenne</string>
+    <string name="zackjohn">zackjohn</string>
+    <string name="kieron_d">kieron_d"</string>
+    <string name="liked_by">Liked by craig_love and 44,686 others</string>
 
 </resources>
