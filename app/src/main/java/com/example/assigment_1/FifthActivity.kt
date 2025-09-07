@@ -16,5 +16,11 @@ class FifthActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+        val messagebtn: ImageView = findViewById(R.id.share)
+        messagebtn.setOnClickListener {
+            val intent = Intent(this, EightAvtivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }
