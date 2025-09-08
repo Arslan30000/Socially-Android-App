@@ -48,5 +48,17 @@
     <string name="Hello">Hello</string>
     <string name="time">4:49 PM</string>
     <string name="Mom">Mother ❤️</string>
-
+    <string name="following">Following</string>
+    <string name="you">You</string>
+    <string name="karen_like"><b>karennne</b> liked 3 posts. </string>
+    <string name="kiero_like"><b>kiero_d</b>, <b>zackjohn</b> and <b>craig_love</b> liked <b>joshua_l.</b>  </string>
+    <string name="kiero_follow"><b>kiero_d</b> started following </string>
+    <string name="craig_like"><b>craig_love</b> liked 8 posts. </string>
+    <string name="maxzac_like"><b>maxjacobson</b> and <b>zackjohn liked <b>mis_potter</b>’s post.</b>  </string>
+    <string name="maxcraig_like"><b>maxjacobson</b> and <b>craig_love liked <b>martini_rond</b>’s post. </b></string>
+    <string name="karen_comment"><b>karennne</b> liked <b>martini_rond</b>s</string>
+    <string name="max_like"><b>maxjacobson</b> liked 3 posts. </string>
+    <string name="hours">3h</string>
+    <string name="kraig"> <b>craig_love.</b></string>
+    <string name="karen_comment2">comment: <font color='#3b5998'>@martini_rond</font> Nice! </string>
 </resources>

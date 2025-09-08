@@ -22,5 +22,11 @@ class FifthActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+        val like_btn: ImageView = findViewById(R.id.like_icon)
+        like_btn.setOnClickListener {
+            val intent = Intent(this, EleventhActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }

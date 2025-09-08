@@ -299,6 +299,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/line2"
+        android:layout_above="@id/line3"
 
         >
         <LinearLayout
@@ -395,7 +396,7 @@
             >
         </ImageView>
         <ImageView
-            android:layout_height="wrap_content"
+            android:layout_height="300dp"
             android:layout_width="match_parent"
             android:background="@drawable/image8"
             >
@@ -507,17 +508,17 @@
             android:textSize="13sp"
             android:textColor="@color/black">
         </TextView>
-        <TextView
-            android:id="@+id/caption_text2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
-            android:layout_toEndOf="@id/caption_text"
-            android:text="@string/game"
-            android:layout_marginStart="2dp"
-            android:textSize="13sp"
-            android:textColor="@color/black" >
-        </TextView>
+
+            <TextView
+                android:id="@+id/caption_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="6dp"
+                android:layout_toEndOf="@id/caption_text"
+                android:text="@string/game"
+                android:textColor="@color/black"
+                android:textSize="13sp"></TextView>
         </RelativeLayout>
 
 
@@ -606,7 +607,7 @@
 
                 <ImageView
                     android:id="@+id/post_image_2"
-                    android:layout_height="wrap_content"
+                    android:layout_height="300dp"
                     android:layout_width="match_parent"
                     android:background="@drawable/image8">
                 </ImageView>
