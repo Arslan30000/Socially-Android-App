@@ -73,5 +73,12 @@
     <string name="max_follow"><b>maxjacobson</b> started following you.<font color='#A5A5A5'>3d</font> </string>
      <string name="follow_3">Follow</string>
      <string name="This_Month">This Month</string>
-
+    <string name="Highlight"><b>Highlight</b> <font color="#80C0C0C0">December 3,2023</font></string>
+    <string name="Artist"><b>Artist.</b> Song Title </string>
+    <string name="Activity">Activity</string>
+    <string name="Create">Create</string>
+    <string name="Create_Post">Create Post</string>
+    <string name="Browse">Browse</string>
+    <string name="Send">Send</string>
+    <string name="More">More</string>
 </resources>

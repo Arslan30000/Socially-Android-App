@@ -28,6 +28,12 @@ class TwelfthActivity: AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+        val HighPage: ImageView=findViewById(R.id.post_icon)
+        HighPage.setOnClickListener {
+            val intent = Intent(this, ThirteenActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
 
     }
 
