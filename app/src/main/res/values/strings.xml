@@ -50,15 +50,28 @@
     <string name="Mom">Mother ❤️</string>
     <string name="following">Following</string>
     <string name="you">You</string>
-    <string name="karen_like"><b>karennne</b> liked 3 posts. </string>
-    <string name="kiero_like"><b>kiero_d</b>, <b>zackjohn</b> and <b>craig_love</b> liked <b>joshua_l.</b>  </string>
+    <string name="karen_like"><b>karennne</b> liked 3 posts.<font color='#A5A5A5'>3h</font> </string>
+    <string name="kiero_like"><b>kiero_d</b>, <b>zackjohn</b> and <b>craig_love</b> liked <b>joshua_l </b> post <font color='#A5A5A5'>3h</font>  </string>
     <string name="kiero_follow"><b>kiero_d</b> started following </string>
-    <string name="craig_like"><b>craig_love</b> liked 8 posts. </string>
-    <string name="maxzac_like"><b>maxjacobson</b> and <b>zackjohn liked <b>mis_potter</b>’s post.</b>  </string>
-    <string name="maxcraig_like"><b>maxjacobson</b> and <b>craig_love liked <b>martini_rond</b>’s post. </b></string>
+    <string name="craig_like"><b>craig_love</b> liked 8 posts.<font color='#A5A5A5'>3h</font> </string>
+    <string name="maxzac_like"><b>maxjacobson</b> and <b>zackjohn liked <b>mis_potter</b>’s post.</b><font color='#A5A5A5'>3h</font>  </string>
+    <string name="maxcraig_like"><b>maxjacobson</b> and <b>craig_love liked <b>martini_rond</b>’s post. </b><font color='#A5A5A5'>3h</font></string>
     <string name="karen_comment"><b>karennne</b> liked <b>martini_rond</b>s</string>
-    <string name="max_like"><b>maxjacobson</b> liked 3 posts. </string>
-    <string name="hours">3h</string>
-    <string name="kraig"> <b>craig_love.</b></string>
-    <string name="karen_comment2">comment: <font color='#3b5998'>@martini_rond</font> Nice! </string>
+    <string name="max_like"><b>maxjacobson</b> liked 3 posts.<font color='#A5A5A5'>3h</font> </string>
+    <string name="kraig"> <b>craig_love.</b><font color='#A5A5A5'>3h</font></string>
+    <string name="karen_comment2">comment: <font color='#3b5998'>@martini_rond</font> Nice!<font color='#A5A5A5'>3h</font> </string>
+    <string name="Follow_request">Follow Requests</string>
+    <string name="karenne_4"><b>karennne</b>liked your photo.<font color='#A5A5A5'>1h</font> </string>
+    <string name="New">New</string>
+    <string name="Today">Today</string>
+    <string name="multiple_likes"><b>Kiero_d</b>, <b>zackjohn</b> and <b>26 others</b> liked your photo.<font color='#A5A5A5'>3h</font> </string>
+    <string name="This_Week">This Week</string>
+    <string name="mention"><b>craig_love</b> mentioned you in a comment:  <font color='#3b5998'>@jacob_w</font> exactly... <font color='#A5A5A5'>2d</font></string>
+    <string name="like_reply">♡︎   Reply</string>
+    <string name="message_2">Message</string>
+    <string name="martini_follow"><b>martini_rond</b> started following you.<font color='#A5A5A5'>3d</font> </string>
+    <string name="max_follow"><b>maxjacobson</b> started following you.<font color='#A5A5A5'>3d</font> </string>
+     <string name="follow_3">Follow</string>
+     <string name="This_Month">This Month</string>
+
 </resources>
