@@ -81,4 +81,24 @@
     <string name="Browse">Browse</string>
     <string name="Send">Send</string>
     <string name="More">More</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="done">Done</string>
+    <string name="change_photo">Change Profile Photo</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="website">Website</string>
+    <string name="bio">Bio</string>
+    <string name="switch_account">Switch to Professional Account</string>
+    <string name="private_info">Private Information</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="gender">Gender</string>
+    <string name="sample_name">Jacob West</string>
+    <string name="sample_username">jacob_w</string>
+    <string name="sample_website">Website</string>
+    <string name="sample_bio">Digital goodies designer @pixsellz\nEverything is designed.</string>
+    <string name="sample_email">jacob.west@gmail.com</string>
+    <string name="sample_phone">+1 202 555 0147</string>
+    <string name="sample_gender">Male</string>
 </resources>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/status_bar"
+        >
+    </ImageView>
+    <RelativeLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_below="@id/status_bar"
+        android:background="@color/white_4">
+
+        <TextView
+            android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:text="@string/cancel"
+            android:textColor="@color/black"
+            android:textSize="14sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/edit_profile"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/done_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:text="@string/done"
+            android:textColor="@color/brown"
+            android:textStyle="bold"
+            android:textSize="14sp">
+        </TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/profile_section"
+        android:layout_below="@id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="90dp"
+            android:id="@+id/profile_pic"
+            android:layout_height="90dp"
+            android:src="@drawable/profile_image"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#A52A94">
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+
+        <TextView
+            android:id="@+id/change_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/change_photo"
+            android:textColor="@color/brown"
+            android:textStyle="bold"
+            android:textSize="14sp">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/editable_fields"
+        android:layout_below="@id/profile_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+
+            android:text="@string/sample_name"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:textSize="14sp">
+        </EditText>
+
+        <EditText
+            android:id="@+id/username_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:text="@string/sample_username"
+            android:background="@null"
+            android:padding="12dp"
+            android:textSize="14sp">
+        </EditText>
+
+        <EditText
+            android:id="@+id/website_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/website"
+            android:text="@string/sample_website"
+            android:enabled="false"
+            android:background="@null"
+            android:padding="12dp"
+            android:textSize="14sp">
+        </EditText>
+
+        <EditText
+            android:id="@+id/bio_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bio"
+            android:text="@string/sample_bio"
+            android:background="@null"
+            android:padding="12dp"
+            android:textSize="14sp"
+            android:inputType="textMultiLine">
+        </EditText>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/switch_account"
+        android:layout_below="@id/editable_fields"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/switch_account"
+        android:textColor="@color/pink_dark"
+        android:textSize="14sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/private_info_label"
+        android:layout_below="@id/switch_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/private_info"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="14sp">
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/private_fields"
+        android:layout_below="@id/private_info_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/email_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:text="@string/sample_email"
+            android:background="@null"
+            android:padding="12dp"
+            android:textSize="14sp">
+        </EditText>
+
+        <EditText
+            android:id="@+id/phone_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone"
+            android:text="@string/sample_phone"
+            android:background="@null"
+            android:padding="12dp"
+            android:textSize="14sp">
+        </EditText>
+
+        <EditText
+            android:id="@+id/gender_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/gender"
+            android:text="@string/sample_gender"
+            android:background="@null"
+            android:padding="12dp"
+            android:textSize="14sp">
+        </EditText>
+    </LinearLayout>
+</RelativeLayout>
