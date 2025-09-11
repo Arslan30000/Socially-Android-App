@@ -91,14 +91,16 @@
     <string name="bio">Bio</string>
     <string name="switch_account">Switch to Professional Account</string>
     <string name="private_info">Private Information</string>
-    <string name="email">Email</string>
     <string name="phone">Phone</string>
     <string name="gender">Gender</string>
     <string name="sample_name">Jacob West</string>
     <string name="sample_username">jacob_w</string>
     <string name="sample_website">Website</string>
-    <string name="sample_bio">Digital goodies designer @pixsellz\nEverything is designed.</string>
+    <string name="sample_bio">Digital goodies designer<font color="#795D5E">@pixsells</font> <br/>Everything is designed.</string>
     <string name="sample_email">jacob.west@gmail.com</string>
     <string name="sample_phone">+1 202 555 0147</string>
     <string name="sample_gender">Male</string>
+    <string name="label_username">Username</string>
+    <string name="label_website">Website</string>
+    <string name="Bio">Bio</string>
 </resources>
