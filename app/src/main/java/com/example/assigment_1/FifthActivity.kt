@@ -32,5 +32,11 @@ class FifthActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+        val camera_btn: ImageView = findViewById(R.id.camera)
+        camera_btn.setOnClickListener {
+            val intent = Intent(this, SixteenActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }

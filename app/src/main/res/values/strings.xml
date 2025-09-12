@@ -26,7 +26,7 @@
     <string name="karenne">karenne</string>
     <string name="zackjohn">zackjohn</string>
     <string name="kieron_d">kieron_d"</string>
-    <string name="liked_by">Liked by craig_love and 44,686 others</string>
+    <string name="liked_by">Liked by <b>craig_love</b> and <b>44,686 others</b></string>
     <string name="search">Search</string>
     <string name="shop">Shop</string>
     <string name="style">Style</string>
@@ -110,4 +110,9 @@
     <string name="Video">Video</string>
     <string name="infinity">∞</string>
     <string name="select_multiple">SELECT MULTIPLE</string>
+    <string name="Type">TYPE</string>
+    <string name="Live">LIVE</string>
+    <string name="Normal">NORMAL</string>
+    <string name="Bome">BOOMERANG</string>
+    <string name="Super_2">SUPER2</string>
 </resources>
