@@ -80,6 +80,10 @@
             android:name=".SixteenActivity"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".SeventeenActivity"
+            android:exported="true">
+        </activity>
 
 
 

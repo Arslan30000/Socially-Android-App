@@ -84,6 +84,7 @@
       >
 
         <LinearLayout
+            android:id="@+id/s_1"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:layout_marginStart="5dp"
@@ -112,6 +113,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/s_2"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:layout_marginStart="5dp"
@@ -141,6 +143,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/s_3"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:layout_marginStart="5dp"
@@ -170,6 +173,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/s_4"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:layout_marginStart="5dp"
@@ -198,6 +202,7 @@
             </TextView>
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/s_5"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:layout_marginStart="5dp"
@@ -226,6 +231,7 @@
             </TextView>
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/s_6"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:layout_marginStart="5dp"
@@ -254,6 +260,7 @@
             </TextView>
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/s_7"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:layout_marginStart="5dp"
