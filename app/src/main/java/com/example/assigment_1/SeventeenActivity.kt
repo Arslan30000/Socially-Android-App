@@ -10,7 +10,7 @@ class SeventeenActivity : AppCompatActivity() {
         setContentView(R.layout.story_page)
         val close_btn: ImageView = findViewById(R.id.close)
         close_btn.setOnClickListener {
-            val intent = Intent(this, SeventhActivity::class.java)
+            val intent = Intent(this, FifthActivity::class.java)
             startActivity(intent)
             finish()
         }

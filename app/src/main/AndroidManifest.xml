@@ -84,6 +84,10 @@
             android:name=".SeventeenActivity"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".EighteenActivity"
+            android:exported="true">
+        </activity>
 
 
 

@@ -15,6 +15,12 @@ class SixteenActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+        val capture_btn: de.hdodenhof.circleimageview.CircleImageView = findViewById(R.id.capture)
+        capture_btn.setOnClickListener {
+            val intent = Intent(this, EighteenActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }
 
