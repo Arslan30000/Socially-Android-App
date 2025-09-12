@@ -506,7 +506,8 @@
                 android:text="@string/josh"
                 android:textColor="@color/black"
                 android:textSize="13sp"
-                android:textStyle="bold"></TextView>
+                android:textStyle="bold">
+            </TextView>
 
             <TextView
                 android:id="@+id/caption_text2"

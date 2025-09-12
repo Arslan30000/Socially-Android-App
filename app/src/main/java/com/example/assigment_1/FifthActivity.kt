@@ -3,7 +3,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
-
 class FifthActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,6 +23,12 @@ class FifthActivity : AppCompatActivity() {
         val like_btn: ImageView = findViewById(R.id.like_icon)
         like_btn.setOnClickListener {
             val intent = Intent(this, EleventhActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+        val create_post_btn: ImageView = findViewById(R.id.post_icon)
+        create_post_btn.setOnClickListener {
+            val intent = Intent(this, FifteenthActivity::class.java)
             startActivity(intent)
             finish()
         }

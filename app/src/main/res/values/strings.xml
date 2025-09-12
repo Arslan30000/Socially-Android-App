@@ -103,4 +103,11 @@
     <string name="label_username">Username</string>
     <string name="label_website">Website</string>
     <string name="Bio">Bio</string>
+    <string name="Recents">Recents</string>
+    <string name="Next">Next</string>
+    <string name="Library">Library</string>
+    <string name="Photo">Photo</string>
+    <string name="Video">Video</string>
+    <string name="infinity">∞</string>
+    <string name="select_multiple">SELECT MULTIPLE</string>
 </resources>

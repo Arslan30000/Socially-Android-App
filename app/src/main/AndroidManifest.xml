@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
-
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -75,6 +72,15 @@
             android:name=".FourteenthActivity"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".FifteenthActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".SixteenActivity"
+            android:exported="true">
+        </activity>
+
 
 
 

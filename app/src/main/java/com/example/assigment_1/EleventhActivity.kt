@@ -2,8 +2,6 @@ package com.example.assigment_1
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
-import android.widget.LinearLayout
-import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
@@ -23,7 +21,7 @@ class EleventhActivity: AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-        val you_button: TextView = findViewById(R.id.tab_you)
+        val you_button: TextView= findViewById(R.id.tab_you)
         you_button.setOnClickListener {
             val intent = Intent(this, TwelfthActivity::class.java)
             startActivity(intent)
