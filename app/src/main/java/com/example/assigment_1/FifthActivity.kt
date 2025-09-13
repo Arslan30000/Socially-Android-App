@@ -16,6 +16,13 @@ class FifthActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
+
+        val Profile_btn: de.hdodenhof.circleimageview.CircleImageView = findViewById(R.id.profile_icon)
+        Profile_btn.setOnClickListener {
+            val intent = Intent(this, LastActivity::class.java)
+            startActivity(intent)
+
+        }
         val messagebtn: ImageView = findViewById(R.id.share)
         messagebtn.setOnClickListener {
             val intent = Intent(this, EightAvtivity::class.java)

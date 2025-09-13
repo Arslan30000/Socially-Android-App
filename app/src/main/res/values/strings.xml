@@ -138,4 +138,9 @@
     <string name="H_3">Highlight 3</string>
     <string name="H_4">Highlight 4</string>
     <string name="new_">New </string>
+    <string name="sample_bio_2">Digital goodies designer<font color="#1F4468">@pixsells</font> \nEverything is designed.</string>
+    <string name="H_1_">Friends</string>
+    <string name="H_2_">Sport</string>
+    <string name="H_3_">Design</string>
+
 </resources>
