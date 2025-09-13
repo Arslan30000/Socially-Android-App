@@ -42,7 +42,7 @@ class FifthActivity : AppCompatActivity() {
         }
         val story_btn_1: LinearLayout  = findViewById(R.id.s_1)
         story_btn_1.setOnClickListener {
-            val intent = Intent(this, SeventeenActivity::class.java)
+            val intent = Intent(this, NineteenActivity::class.java)
             startActivity(intent)
 
         }
