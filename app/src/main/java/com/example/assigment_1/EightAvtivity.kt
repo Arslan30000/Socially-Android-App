@@ -14,13 +14,13 @@ class EightAvtivity : AppCompatActivity() {
         Chatbtn.setOnClickListener {
             val intent = Intent(this, NinthActivity::class.java)
             startActivity(intent)
-            finish()
+
         }
         val Chatbtn_2: RelativeLayout = findViewById(R.id.p2)
         Chatbtn_2.setOnClickListener {
             val intent = Intent(this, NinthActivity::class.java)
             startActivity(intent)
-            finish()
+
         }
 
         val Back_btn: ImageView= findViewById(R.id.back_icon)
@@ -29,6 +29,19 @@ class EightAvtivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+        val profile_f: ImageView= findViewById(R.id.profile_1)
+        profile_f.setOnClickListener {
+            val intent = Intent(this, TwentyActivity::class.java)
+            startActivity(intent)
+
+        }
+        val profile_f_1: ImageView= findViewById(R.id.profile_2)
+        profile_f_1.setOnClickListener {
+            val intent = Intent(this, TwentyActivity::class.java)
+            startActivity(intent)
+
+        }
+
 
 
     }
